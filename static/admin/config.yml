@@ -2,6 +2,7 @@ backend:
   name: github
   repo: aditya81070/gatsby-with-netlify-cms-learn
 media_folder: static/assets
+publish_mode: editorial_workflow
 public_folder: assets
 collections:
   - name: blog
