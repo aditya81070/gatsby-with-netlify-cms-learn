@@ -6,5 +6,20 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-netlify-cms"],
+  plugins: [
+    "gatsby-plugin-netlify-cms",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [".mdx", ".md"],
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blog",
+        path: `${__dirname}/blog`,
+      },
+    },
+  ],
 }
