@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 export const query = graphql`
@@ -22,6 +22,7 @@ const blogTemplate = ({ data: { mdx: blog } }) => {
         Created at: {new Date(blog.frontmatter.date).toDateString()}
       </small>
       <MDXRenderer>{blog.body}</MDXRenderer>
+      <Link to="/">&larr; Go to all blogs</Link>
     </>
   )
 }
