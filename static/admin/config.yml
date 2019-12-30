@@ -10,6 +10,8 @@ media_library:
   name: uploadcare
   config:
     publicKey: 46afd475684287af5b68
+    imagesOnly: true
+    imageShrink: 480x480
 collections:
   - name: blog
     label: Blog
