@@ -3,9 +3,9 @@
 #   repo: aditya81070/gatsby-with-netlify-cms-learn
 backend:
   name: git-gateway
-media_folder: static/assets
+# media_folder: static/assets
 publish_mode: editorial_workflow
-public_folder: assets
+# public_folder: assets
 media_library:
   name: uploadcare
   config:
@@ -20,3 +20,4 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - { name: cover, label: Cover Image, widget: image }
