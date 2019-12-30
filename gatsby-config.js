@@ -21,5 +21,26 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Gatsby with Netlify CMS",
+        short_name: "Gatsby App",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#a2466c",
+        display: "standalone",
+        orientation: "portrait",
+        prefer_related_applications: false,
+        icon: "static/images/icon.png",
+        cache_busting_mode: "none",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        clientsClaim: true,
+      },
+    },
   ],
 }
