@@ -6,6 +6,10 @@ backend:
 media_folder: static/assets
 publish_mode: editorial_workflow
 public_folder: assets
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 46afd475684287af5b68
 collections:
   - name: blog
     label: Blog
