@@ -1,6 +1,8 @@
+# backend:
+#   name: github
+#   repo: aditya81070/gatsby-with-netlify-cms-learn
 backend:
-  name: github
-  repo: aditya81070/gatsby-with-netlify-cms-learn
+  name: git-gateway
 media_folder: static/assets
 publish_mode: editorial_workflow
 public_folder: assets
