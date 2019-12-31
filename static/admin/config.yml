@@ -5,13 +5,14 @@ backend:
   name: git-gateway
 # media_folder: static/assets
 publish_mode: editorial_workflow
+media_folder: static/images/uploads
 # public_folder: assets
-media_library:
-  name: uploadcare
-  config:
-    publicKey: 46afd475684287af5b68
-    imagesOnly: true
-    imageShrink: 480x480
+# media_library:
+#   name: uploadcare
+#   config:
+#     publicKey: 46afd475684287af5b68
+#     imagesOnly: true
+#     imageShrink: 480x480
 collections:
   - name: blog
     label: Blog
