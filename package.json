@@ -18,7 +18,7 @@
     "@mdx-js/react": "^1.5.3",
     "gatsby": "^2.18.12",
     "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-mdx": "^1.0.64",
+    "gatsby-plugin-mdx": "^2.14.1",
     "gatsby-plugin-netlify-cms": "^4.1.33",
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-source-filesystem": "^2.1.43",
